@@ -37,7 +37,7 @@ function App() {
    * Enter your Teams voice app identifier from the Teams admin center here
    */
   const teamsAppIdentifier: MicrosoftTeamsAppIdentifier = {
-    teamsAppId: "310ed7b0-6e1d-477f-aa16-641200210b8f",
+    teamsAppId: "c6d44cdf-67d9-4592-aebf-54eb8a27f9b8",
     cloud: "public",
   };
 
