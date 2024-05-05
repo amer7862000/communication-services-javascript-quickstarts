@@ -24,20 +24,20 @@ function App() {
   /**
    * Token for local user.
    */
-  const token = "<Enter your ACS Token here>";
+  const token = "eyJhbGciOiJSUzI1NiIsImtpZCI6IjYwNUVCMzFEMzBBMjBEQkRBNTMxODU2MkM4QTM2RDFCMzIyMkE2MTkiLCJ4NXQiOiJZRjZ6SFRDaURiMmxNWVZpeUtOdEd6SWlwaGsiLCJ0eXAiOiJKV1QifQ.eyJza3lwZWlkIjoiYWNzOmRmMDNlYTAxLWRlOGUtNGY4OC1iY2Q5LTU3MjQ5ZTg1ZTgyNl8wMDAwMDAxZi1lNzU0LTIwMmQtNmE0OS1hZDNhMGQwMGFiZTQiLCJzY3AiOjE3OTIsImNzaSI6IjE3MTQ4OTA2MzYiLCJleHAiOjE3MTQ5NzcwMzYsInJnbiI6InVrIiwiYWNzU2NvcGUiOiJ2b2lwIiwicmVzb3VyY2VJZCI6ImRmMDNlYTAxLWRlOGUtNGY4OC1iY2Q5LTU3MjQ5ZTg1ZTgyNiIsInJlc291cmNlTG9jYXRpb24iOiJ1ayIsImlhdCI6MTcxNDg5MDYzNn0.HpnFjpH2o-Jps2xxPrr1CgnU4Sajs5IWUqPWpeZGEq2xfxPQiC3abrOYKSy5bxLWIIQ3Frb3F9dUuq1-6jVS_8H9hLuDugPL3N7TqbyRklpRQc44V_qLnJL5Ciz73a2ymRchw11lJ9aXc3K-g8nEJ8XtofkbWI72FI9t8VG_lvT6MN6kLHWvHKPnvLnaTq55yu8LC8nNyZDwl-IZ0zxPOu9thUHsVYXm9xnoMCWl34MDjAZdVCJPDeEmZCbF6YQeISHU_aj1ulGFQyIm9T9jfVHox1o7pwUzwQ4DevgsCL-MqRnVGozS0uRJbp6Zj4g0Qa36xwvDwyd2Rg5noOkvEw";
 
   /**
    * User identifier for local user.
    */
   const userId: CommunicationIdentifier = {
-    communicationUserId: "Enter your ACS Id here",
+    communicationUserId: "8:acs:df03ea01-de8e-4f88-bcd9-57249e85e826_0000001f-e754-202d-6a49-ad3a0d00abe4",
   };
 
   /**
    * Enter your Teams voice app identifier from the Teams admin center here
    */
   const teamsAppIdentifier: MicrosoftTeamsAppIdentifier = {
-    teamsAppId: "<Enter your Teams Voice app id here>",
+    teamsAppId: "310ed7b0-6e1d-477f-aa16-641200210b8f",
     cloud: "public",
   };
 
