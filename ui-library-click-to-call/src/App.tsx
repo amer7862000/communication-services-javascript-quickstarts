@@ -71,7 +71,7 @@ function App() {
           tokens={{ childrenGap: "2rem" }}
         >
           <Text style={{ marginTop: "auto" }} variant="xLarge">
-            Welcome to a Calling Widget sample
+            Azen Cloud - Web Call Test
           </Text>
           <img
             style={{ width: "7rem", height: "auto" }}
@@ -81,8 +81,7 @@ function App() {
         </Stack>
 
         <Text>
-          Welcome to a Calling Widget sample for the Azure Communication
-          Services UI Library. This sample has the ability to connect you through a
+          This sample has the ability to connect you through a
           Teams voice apps to an agent to help you.
         </Text>
         <Text>
